@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header y menú */
+header {
+    background-color: #0be713;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos del formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Pseudoselectores */
+input:focus, select:focus {
+    border-color: #4cad50;
+    outline: none;
+}
+
+/* Botones de cambio de tema */
+#light-theme, #dark-theme {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Tema claro (por defecto) */
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+/* Tema oscuro */
+.dark-theme {
+    background-color: #2c2c2c;
+    color: white;
+}
